@@ -2,7 +2,13 @@
 This repo contains the minimum files you'll need for creating a Cerner SMART on FHIR app.
 
 ## For Provider Apps:
-To simulate a launch from the EHR, use the following url structure: 
+To simulate a launch from the EHR, use the following url structure:
+
+### U.S. Nonproduction
+```
+https://smart.sandboxcerner.com/smart/{tenant_id}/apps/{application_id}/?PAT_PersonId={person_id}&username={username}
+```
+### U.S. Production
 ```
 https://smart.cerner.com/smart/{tenant_id}/apps/{application_id}/?PAT_PersonId={person_id}&username={username}
 ```
