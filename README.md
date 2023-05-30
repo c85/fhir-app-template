@@ -1,4 +1,4 @@
-# Cerner SMART on FHIR Template
+# Cerner SMART on FHIR App Template
 This repo contains the minimum files you'll need for creating a Cerner SMART on FHIR app.<br>
 Note: if your app privacy is set to <b>confidential</b>, please use the launch-confidential.html template
 
